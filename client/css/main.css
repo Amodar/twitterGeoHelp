@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, sans-serif;
+}
+#map-canvas {
+    height: 100%;
+    width: 100%;
+}
+.time {
+    font-size: 0.8em;
+    text-align: right;
+    color: gray;
+}
+a[href^="http://maps.google.com/maps"] {
+    display:none !important;
+}
+
+.gmnoprint a, .gmnoprint span .gm-style-cc .gmnoprint {
+    display:none !important;
+}
+.gmnoprint div {
+    background:none !important;
+    display:none !important;
+}
+#delete {
+    position: absolute;
+    top: 0;
+    left: 185px;
+}
