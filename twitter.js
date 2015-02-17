@@ -50,9 +50,7 @@ io.sockets.on('connection', function(socket) {
 });
 
 router.get('/', function(req, res) {
-    res.sendfile(__dirname + '/client/index.html', {
-    message : "tweettweet"
-    });
+    res.sendfile(__dirname + '/client/index.html');
 });
 
 server.listen(process.env.PORT);
