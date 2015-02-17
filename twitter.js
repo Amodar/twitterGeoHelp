@@ -1,9 +1,9 @@
 var twit = require("twitter"),
     twitter = new twit({
-        consumer_key: '6pKwgTccwlSCSScYn2otfQWLz',
-        consumer_secret: 'eMsyrGu5NtsZO8TYb8PAk7bG6gFNYZFQ29kG7mk7xummK54lwL',
-        access_token_key: '46781891-JR2tm5ehhs9nWamKTRtI0ejRtilPUyiOcEcHwnZq8',
-        access_token_secret: 'RcuOWg2ranlfRyGPHl3AyOPayWWpkb0RfRK1kSPQtVELL'
+        consumer_key: 'xxxxxxxxx',
+        consumer_secret: 'xxxxxxxxx',
+        access_token_key: 'xxxxxxxxx',
+        access_token_secret: 'xxxxxxxxx'
     });
   
 var http = require('http');
